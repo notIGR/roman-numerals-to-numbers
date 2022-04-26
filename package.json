@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/valievdev/roman-numerals-to-numbers#readme",
   "dependencies": {
     "jest": "^28.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jsdoc": "^3.6.10"
   }
 }

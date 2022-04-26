@@ -32,6 +32,9 @@
 // and meets below guarantees,
 // decodeRoman will return the correct value
 
+// INTERMEDIATE VERSION REQS
+// All the basic reqs, plus if the string is empty, return 0
+
 // ADVANCED VERSION REQS
 // Your decodeRoman function can handle any case within the guarantees below,
 // including subtraction such as
@@ -41,10 +44,13 @@
 // s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 // s is a valid Roman numeral between 1 and 3999
 
-//
-// @param {string} s
-//
+/**
+*   Decodes a roman numeral into a standard number
+*   @param {string} s Roman Numerals
+*   @returns {number} Decoded Value
+*/
 const decodeRoman = (s) => {
+
   // return the decoded value
 };
 
