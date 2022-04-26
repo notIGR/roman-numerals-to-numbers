@@ -21,7 +21,6 @@
 // MD - 1500
 
 // As seen above, numbers that require multiple digits are written with the smaller numbers
-// coming later except in the following cases
 
 // I (1) can be placed before V (5) and X (10) to make 4 and 9.
 // X (10) can be placed before L (50) and C (100) to make 40 and 90.
@@ -37,8 +36,13 @@
 
 // ADVANCED VERSION REQS
 // Your decodeRoman function can handle any case within the guarantees below,
-// including subtraction such as
-// such as IV (4), XL (40), CM (400)
+// including subtraction such as IV (4), XL (40), CM (400)
+
+// EXPERT VERSION REQS
+// Everything in expert, plus make it case insensitive
+// (iV should return 4, XxVIi should return 27)
+// and invalid roman numerals - invalid should return -1
+// ("FakeNumeral" should return -1)
 
 // Guarantees
 // s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
@@ -49,12 +53,16 @@
 *   @param {string} s Roman Numerals
 *   @returns {number} Decoded Value
 */
+// DO NOT RENAME THIS FUNCTION
 const decodeRoman = (s) => {
-  
   // return the decoded value
 };
 
-// Use npm run test to run tests
+// HOW TO TEST
+// Use npm run test to run all tests
+// Run individual tests like so
+// npm run (basic or intermediate or advanced or expert)
+// ex. npm run basic
 // To view a hint, open hint.js
 // To view a hint for the advanced solution, open hint2.js
 

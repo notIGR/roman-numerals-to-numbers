@@ -4,7 +4,11 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose",
+    "basic": "jest basic --verbose",
+    "intermediate": "jest basic intermediate --verbose",
+    "advanced": "jest basic intermediate advanced --verbose",
+    "expert": "jest --watchAll --verbose"
   },
   "repository": {
     "type": "git",
