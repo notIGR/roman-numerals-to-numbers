@@ -1,5 +1,6 @@
 # roman-numerals-to-numbers
-Objective - Complete the function `decodeRoman()` found in `script.js` that takes in a string of Roman numerals and returns a valid integer
+Objective - Complete the function `decodeRoman()` found in `script.js` that takes in a string of Roman numerals and returns a valid integer.
+
 Not familiar with roman numerals? See [background](#background) section below
 
 ## Getting started
