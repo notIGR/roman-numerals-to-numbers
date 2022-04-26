@@ -75,7 +75,7 @@ describe('Basic Version Requirements', () => {
 			expect(result).toBe(test.decoded);
 		}
 	});
-	it('Can decode advanced roman numerals', () => {
+	it('Can decode multi character roman numerals', () => {
 		for (const test of generalTestCases) {
 			const result = decodeRoman(test.roman);
 			expect(result).toBe(test.decoded);

@@ -50,11 +50,11 @@
 *   @returns {number} Decoded Value
 */
 const decodeRoman = (s) => {
-
+  
   // return the decoded value
 };
 
-// When you want to test this code, use the command
+// Use npm run test to run tests
 // To view a hint, open hint.js
 // To view a hint for the advanced solution, open hint2.js
 
