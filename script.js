@@ -31,8 +31,11 @@
 // DO NOT RENAME THIS FUNCTION
 const decodeRoman = (s) => {
   // your code goes here
+const s.forEach(numeral => console.log(numeral));
   // return the decoded value
+  return 
 };
+
 
 // HOW TO TEST
 // Use npm run test to run all tests
