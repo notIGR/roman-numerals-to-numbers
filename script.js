@@ -31,17 +31,22 @@
 // DO NOT RENAME THIS FUNCTION
 const decodeRoman = (s) => {
   // your code goes here
-const I = 1
+  let finalCount = 0
+  const numeral = 0
+  for (let i = 0; i < numeral.length; i++) {
+
+  }
+/*const I = 1
 const V = 5
 const X = 10
 const L = 100
 const C = 1000
 const D = 10000
-const M = 100000
+const M = 100000 */
+
   // return the decoded value
-  console.log(s)
+  return
 };
-decodeRoman(I)
 
 
 // HOW TO TEST
