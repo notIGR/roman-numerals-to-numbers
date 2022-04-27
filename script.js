@@ -31,10 +31,17 @@
 // DO NOT RENAME THIS FUNCTION
 const decodeRoman = (s) => {
   // your code goes here
-const s.forEach(numeral => console.log(numeral));
+const I = 1
+const V = 5
+const X = 10
+const L = 100
+const C = 1000
+const D = 10000
+const M = 100000
   // return the decoded value
-  return 
+  console.log(s)
 };
+decodeRoman(I)
 
 
 // HOW TO TEST
